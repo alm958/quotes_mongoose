@@ -1,0 +1,17 @@
+div{
+    margin: 7px;
+    padding: 7px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.form{
+    border-radius: 4px;
+    background-color: beige;
+    border: 2px solid brown;
+    width: 260px;
+}
+p.namedate{margin-left: 20px;}
+div.error{
+    display: block;
+}
+#dialog{display: none;}

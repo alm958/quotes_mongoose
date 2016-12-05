@@ -1,0 +1,8 @@
+<h3>Here are the quotes...</h3>
+
+<% for (var i in allQuotes){ %>
+    <p>"<%=allQuotes[i].quote%>"</p>
+    <p class='namedate'>-<%=allQuotes[i].author%> at <%=allQuotes[i].createdAt%></p>
+    <button class="delete" data-id="<%=allQuotes[i]._id%>" type="button">delete</button>
+    <hr>
+<% } %>
